@@ -1,0 +1,68 @@
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #4B66BE;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.social-links {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 1.1rem;
+  color: #4B66BE;
+  text-decoration: underline;
+}
+
+.social-links-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0;
+}
+
+.row {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.text-row a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.icon-row a img {
+    height: 100px;
+    width: 300px;
+    padding: 0;
+}
+
+.icon-row a img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}

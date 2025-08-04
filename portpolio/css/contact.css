@@ -24,7 +24,8 @@ header h1 {
 }
 
 .profile-video {
-  width: 18%;
+  width: 400px;
+  min-width: 20%;
   height: auto;
   border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 20px;
+  height: 300px;
+  background-color: #f0f0f0;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    color : white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.wrap {
+    display: flex;
+    height: 2000px;
+    background-color: tomato;
+    position: relative;
+}
+
+.box1 {
+    display: flex;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.box2 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    z-index: 2;
+}
